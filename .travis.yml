@@ -13,4 +13,5 @@ addons:
     packages:
      - maven
 script:
+    - maven-install-plugin maven-surefire-plugin
     - mvn test -B

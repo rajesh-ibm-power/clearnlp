@@ -11,8 +11,6 @@ arch:
 addons:
   apt:
     packages:
-     - ant 1.10.7
      - maven
 script:
-    - cd maven2
-    - mvn test
+    - mvn test -B
